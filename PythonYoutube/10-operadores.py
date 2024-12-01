@@ -6,19 +6,16 @@ Licencia: GNU GPL v3
 """
 
 
-#OPERADORES ARITMÉTICOS
-print(3+4)#Suma
-print(3*1)#Multiplicación
-print(3/4)#División
-print(3-4)#Resta
-print(3//4)#División exacta que devuelva un entero 
-print(3%4)#Módulo muestra el resto de la división
-print(2**3)#Elevar a la potencia 
-print(2**3+3-7/1//4)#Diferentes operaciones 
+
+print("hola"+"python")#concatena cadenas
+print("hola"*5)#Imprime la cantidad de veces indicada
+
+my_int=2*2
+print("Hola"*my_int)#imprime las veces de la multiplicación
+
+my_float=2.5*2
+print("Hola"*int(my_float))#Cambio el float por int y obtengo la cadena multiplicada
 
 
-
-print("hola"+"python")
-print("hola"*5)
-
-
+my_float=2.5*2
+print("Hola"+str(my_float))#Concatena y dado el cambio de tipo se unen la cadena y el float ahora str
