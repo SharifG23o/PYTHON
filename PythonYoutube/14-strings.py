@@ -59,3 +59,17 @@ print("Mi nombre es %s %s y mi edad es %d" %(name,surname,age))
 %s hace que el primer texto que yo le envíe formateado a la cadena
 lo incluye en el espacio deseado
 """
+"""
+{} se usa en el format 
+
+"""
+
+#Inferencia de datos
+
+print(f"Mi nombre es {name} {surname} y mi edad es {age}")
+
+"""
+La f string sirve para formatear e inferir el valor de las 
+variables previamente definidas
+
+"""

@@ -1,7 +1,7 @@
 """
 Programa que muestra el uso de operadores aritméticos en Python
 Autor: Sharif Giraldo Obando
-Fecha: Noviembre de 2024
+Fecha: Diciembre de 2024
 Licencia: GNU GPL v3
 """
 
