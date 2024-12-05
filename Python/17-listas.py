@@ -58,6 +58,7 @@ print(edad)#Es una forma algo 'Rebuscada' y algo complicada de aplicarlo en un p
 print("\n")
 
 #Operaciones con funciones en la lista
+print(mi_lista.extend("Gato"))
 print(len(mi_otra_lista))#Longitud de elementos que componen la lista
 print(mi_otra_lista.count("Sharif"))#Muestra el número de ocurrencias de un dato o elemento que haya en la lista
 mi_otra_lista.append("TechMath")#Añade un elemento a la lista en su final
