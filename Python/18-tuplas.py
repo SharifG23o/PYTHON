@@ -6,6 +6,15 @@ Licencia: GNU GPL v3
 """
 
 
+"""
+Las tuplas en Python o tuples son muy similares a las listas, pero con dos diferencias. 
+Son inmutables, lo que significa que no pueden ser modificadas una vez declaradas, 
+y en vez de inicializarse con corchetes se hace con (). Dependiendo de lo que queramos hacer, 
+las tuplas pueden ser más rápidas
+
+Tomado de: https://ellibrodepython.com/tuplas-python
+"""
+
 #Formas de definir una tupla
 my_tuple=tuple()
 my_other_tuple=()
