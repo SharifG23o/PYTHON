@@ -75,8 +75,8 @@ print(my_dict.pop("Edad"))
 #pop() remove specified key and return the corresponding value.
 
 #If the key is not found, return the default if given; otherwise, raise a KeyError.
-
-print(my_dict.fromkeys("Estrato"))
+print("\n")
+print(my_dict.fromkeys(("Nombre",1)))
 #fromkeys() Create a new dictionary with keys from iterable and values set to value.
 
 print(my_dict.setdefault("Nombre"))
@@ -88,3 +88,33 @@ print(my_dict.clear())
 my_dict={"Nombre":"Sharif", "Apellido":"Giraldo", "Edad":18, "Lenguajes":{"Python","Java","C"}, 1:1.80 }
 
 print("Nombre" in my_dict)#Busca las llaves o keys
+print("Profesión" in my_dict)
+
+
+
+my_list=["Nombre",1,"Piso"]
+
+my_new_dict=dict.fromkeys((my_list))
+print(my_new_dict)
+my_new_dict=dict.fromkeys(("Nombre",1,"Piso"))
+print(my_new_dict)
+my_new_dict=dict.fromkeys(my_new_dict)
+print((my_new_dict))
+my_new_dict=dict.fromkeys(my_dict,["Sharif","Giraldo"])
+print(my_new_dict)
+
+print(list(my_new_dict))
+print(tuple(my_new_dict))
+print(set(my_new_dict))
+
+my_values=my_new_dict.values()
+print(my_new_dict.values())
+
+print("\n")
+print(list(dict.fromkeys(list(my_new_dict.values()))))
+print(list(dict.fromkeys(list(my_new_dict.keys()))))
+
+
+print(type(my_values)) #<class 'dict_values'> es un diccionario de valores
+print(list(my_new_dict.values()))
+
