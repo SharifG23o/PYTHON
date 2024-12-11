@@ -6,8 +6,8 @@ Licencia: GNU GPL v3
 
 """
 
-print(type(False))#Boolean
-print(type('Hola mundo'))#String
-print(type(12))#Int
-print(type(12.5))#Float
-print(type(12.5j))#Complex
+print(type(False))  # Boolean
+print(type('Hola mundo'))  # String
+print(type(12))  # Int
+print(type(12.5))  # Float
+print(type(12.5j))  # Complex
