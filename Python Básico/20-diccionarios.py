@@ -18,6 +18,7 @@ Y son anidados, un diccionario puede contener a otro diccionario en su campo val
 
 Tomado de: https://ellibrodepython.com/diccionarios-en-python
 """
+
 # Formas de crear un diccionario
 
 my_dict = dict()
