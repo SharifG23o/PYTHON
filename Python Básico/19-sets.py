@@ -80,6 +80,7 @@ print(set_uno.union(set_dos))
 print(set_uno.intersection(set_dos))
 # intersection() Return a new set with elements common to the set and all others
 
+
 print(set_uno.difference(set_dos))
 print(set_dos.difference(set_uno))
 # difference Return a new set with elements in the set that are not in the others
