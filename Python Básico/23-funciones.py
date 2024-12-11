@@ -5,6 +5,7 @@ Fecha: Diciembre de 2024
 Licencia: GNU GPL v3
 """
 
+
 # def es la palabra reservada para crear una función
 
 
