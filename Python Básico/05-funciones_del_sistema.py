@@ -6,6 +6,6 @@ Licencia: GNU GPL v3
 
 """
 
-#Funcion para ver la longitud y contar los caracteres 
-longitud_texto="Hola Mundo"
+# Funcion para ver la longitud y contar los caracteres
+longitud_texto = "Hola Mundo"
 print(len(longitud_texto))
