@@ -5,8 +5,8 @@ Fecha: Noviembre de 2024
 Licencia: GNU GPL v3
 """
 
-name=input("Ingrese su nombre: ")
-age=int(input("Ingrese su edad: "))
-name=123
+name = input("Ingrese su nombre: ")
+age = int(input("Ingrese su edad: "))
+name = 123
 print(name)
 print(age)
