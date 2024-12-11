@@ -12,7 +12,6 @@ repetir un mecanismo o ejecución de código
 varias veces
 """
 
-
 # WHILE
 
 mi_condicion = 0
