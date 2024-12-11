@@ -5,13 +5,13 @@ Fecha: Nobiembre de 2024
 Licencia: GNU GPL v3
 """
 
-#Forzamos el tipado
-address: str="Mi dirección"
-address: int=32
-address=True
+# Forzamos el tipado
+address: str = "Mi dirección"
+address: int = 32
+address = True
 
 print(address)
 print(type(address))
 
-#Guarda el último valor
-#Python es débilmente tipado
+# Guarda el último valor
+# Python es débilmente tipado
